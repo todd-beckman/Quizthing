@@ -1,0 +1,18 @@
+name: quiz_project
+
+dependencies:
+  meta: any
+  over_react: ^1.24.1
+  sass_builder: any
+  redux: ^3.0.0
+
+dev_dependencies:
+  dart_dev: any
+  dart_style: any
+  analyzer: any
+
+transformers:
+  - over_react
+  - sass_builder:
+      outputStyle: compressed
+

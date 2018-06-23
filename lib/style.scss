@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #eee;
+}
+
+.app-view {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-view {
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: stretch;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-evenly;
+  }
+
+  .menu-question-box {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.question-view {
+  flex-direction: column;
+}
+
+.answer-view {
+  flex-direction: column;
+}
+
+.quiz-button {
+  flex-grow: 1;
+  font-size: 3rem;
+  overflow-wrap: break-word;
+}
